@@ -5,41 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Etemaddar - Full Stack Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px 5px 0 0;
+            font-size: 0.9rem;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-4">
+    <header>
         <h1>Mohammad Etemaddar</h1>
         <p>Full Stack Developer | Backend Optimization Specialist</p>
+        <a href="mailto:mohammad.etemaddar@gmail.com" class="btn btn-light btn-lg mt-3">
+            <i class="fas fa-envelope"></i> Contact Me
+        </a>
     </header>
-    <main class="container my-5">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a passionate Full Stack Developer with expertise in building efficient and secure web applications. With years of experience in Python, FastAPI, and Docker, I specialize in backend optimization and enjoy solving complex technical challenges.</p>
-        </section>
-        <section id="portfolio" class="my-5">
-            <h2>Portfolio</h2>
-            <ul>
-                <li><strong>Plan4Better:</strong> Reduced processing time from 3 months to 3 hours using optimized pipelines.</li>
-                <li><strong>Smart Conveyor Belt:</strong> Developed an innovative OpenCV-powered industrial solution.</li>
-                <li><strong>Telegram Book Search Bot:</strong> Created a bot integrating FastAPI, Celery, and Docker.</li>
-            </ul>
-        </section>
-        <section id="skills" class="my-5">
+
+    <section id="about" class="text-center">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Full Stack Developer with expertise in Python, FastAPI, Docker, and CI/CD pipelines. 
+            With years of experience solving complex problems, I focus on creating secure and scalable solutions 
+            for global challenges.
+        </p>
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <h4>Plan4Better</h4>
+                    <p>Reduced processing time from 3 months to 3 hours by optimizing data pipelines. Implemented Celery for task scheduling.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <h4>Telegram Book Search Bot</h4>
+                    <p>Developed a bot with FastAPI and Celery, integrating automation for book search and Bitcoin payments.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <h4>Smart Conveyor Belt</h4>
+                    <p>Built an OpenCV-powered conveyor belt for industrial automation, featuring precise object detection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light">
+        <div class="container text-center">
             <h2>Technical Skills</h2>
-            <p><strong>Backend:</strong> FastAPI, Django, SQLAlchemy, Celery</p>
-            <p><strong>Frontend:</strong> Vue.js, Bootstrap</p>
-            <p><strong>Tools:</strong> Docker, Linux, Git, CI/CD</p>
-        </section>
-        <section id="contact" class="my-5">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:mohammad.etemaddar@gmail.com">mohammad.etemaddar@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammad-etemaddar/" target="_blank">linkedin.com/in/mohammad-etemaddar</a></p>
-            <p>GitHub: <a href="https://github.com/metemaddar" target="_blank">github.com/metemaddar</a></p>
-            <p><img src="your-qrcode.png" alt="QR Code to my GitHub page"></p>
-        </section>
-    </main>
-    <footer class="bg-dark text-white text-center py-3">
-        <p>© 2024 Mohammad Etemaddar. All Rights Reserved.</p>
+            <div class="skills">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Docker</span>
+                <span>CI/CD</span>
+                <span>Vue.js</span>
+                <span>PostgreSQL</span>
+                <span>SQLAlchemy</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="text-center">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mohammad.etemaddar@gmail.com">mohammad.etemaddar@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/metemaddar" target="_blank">github.com/metemaddar</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammad-etemaddar/" target="_blank">linkedin.com/in/mohammad-etemaddar</a></p>
+        <img src="your-qrcode.png" alt="QR Code" class="mt-3" style="max-width: 200px;">
+    </section>
+
+    <footer>
+        <p>© 2024 Mohammad Etemaddar | Built with <i class="fas fa-heart"></i> using GitHub Pages</p>
+        <a href="https://github.com/metemaddar" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </footer>
 </body>
 </html>
