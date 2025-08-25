@@ -57,7 +57,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Mohammad Etemaddar
     subtitle: "A breeze between coding and art"
-    imageUrl: "pics/cyclist-256.webp"
+    imageUrl: "pics/cyclist-full.webp"
     imageWidth: 125
     imageHeight: 125
     imageTitle: my image
