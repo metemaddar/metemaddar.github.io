@@ -88,9 +88,9 @@ params:
     - name: telegram
       url: https://t.me/metemaddar
 
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "ohKn3MisXO8a3s4xlM51QqZy1-fUmFErjOHGMOe_2NM"
   #   bing:
   #     SiteVerificationTag: "XYZabc"
   #   yandex:
