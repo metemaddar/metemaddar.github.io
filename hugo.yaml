@@ -57,7 +57,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Mohammad Etemaddar
-    subtitle: "A breeze between coding and art"
+    subtitle: "Eyes Don't Lie"
     imageUrl: "pics/cyclist-full.webp"
     imageWidth: 125
     imageHeight: 125
