@@ -92,10 +92,10 @@ params:
   analytics:
     google:
       SiteVerificationTag: "ohKn3MisXO8a3s4xlM51QqZy1-fUmFErjOHGMOe_2NM"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "66971563D97896B1A427D4821480F550"
+    yandex:
+      SiteVerificationTag: "c3277c35e817fc2d"
 
   cover:
     linkFullImages: true
