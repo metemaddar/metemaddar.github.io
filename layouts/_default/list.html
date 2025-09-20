@@ -63,7 +63,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}" dir="auto">
+<article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header" dir="auto">
@@ -80,7 +80,7 @@
     </h2>
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
+  <div class="entry-content" dir="auto">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
