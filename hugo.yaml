@@ -88,6 +88,9 @@ params:
       url: "https://stackoverflow.com/users/1951027/mohammad-etemaddar"
     - name: telegram
       url: https://t.me/metemaddar
+    - name: unix.stackexchange
+      url: "https://unix.stackexchange.com/users/40417/mohammad-etemaddar"
+
 
   analytics:
     google:
