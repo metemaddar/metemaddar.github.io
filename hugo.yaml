@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Mohammad Etemaddar
     subtitle: "Eyes Don't Lie"
-    imageUrl: "pics/cyclist-full.webp"
+    imageUrl: "/pics/cyclist-256.webp"
     imageWidth: 125
     imageHeight: 125
     imageTitle: my image
