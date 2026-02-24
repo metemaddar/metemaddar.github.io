@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Mohammad Etemaddar
-    subtitle: "Eyes Don't Lie"
+    # subtitle: "Eyes Don't Lie"
     imageUrl: "/pics/cyclist-256.webp"
     imageWidth: 125
     imageHeight: 125
